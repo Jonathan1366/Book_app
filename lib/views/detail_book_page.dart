@@ -1,10 +1,6 @@
-import 'dart:convert' show jsonDecode;
 import 'package:book_app/controllers/book_controller.dart';
-import 'package:book_app/models/book_detail_response.dart';
-import 'package:book_app/models/book_list_response.dart';
 import 'package:book_app/views/image_view_Screen.dart';
 import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart' show canLaunchUrl, launchUrl;
 
@@ -197,11 +193,11 @@ class _DetailBookPageState extends State<DetailBookPage> {
                         //Text(detailBook!.rating!),
                       ],
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 5,
                     ),
                     const Divider(),
-                    SizedBox(
+                    const SizedBox(
                       height: 5,
                     ),
                     Column(

@@ -1,9 +1,6 @@
-import 'dart:convert';
 import 'package:book_app/controllers/book_controller.dart';
-import 'package:book_app/models/book_list_response.dart';
 import 'package:book_app/views/detail_book_page.dart';
 import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
 import 'package:provider/provider.dart';
 
 class BookListPage extends StatefulWidget {
@@ -72,7 +69,7 @@ class _BookListPageState extends State<BookListPage> {
                                     const SizedBox(
                                       width: 40,
                                     ),
-                                    SizedBox(
+                                    const SizedBox(
                                       height: 40,
                                     ),
                                     Align(

@@ -14,7 +14,7 @@ class ImageViewsScreen extends StatelessWidget {
         children: [
           Image.network(imageUrl),
           const BackButton(),
-          Expanded(
+          const Expanded(
             child: Align(
               alignment: Alignment.center,
             ),
